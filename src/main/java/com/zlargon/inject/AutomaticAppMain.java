@@ -3,8 +3,6 @@ package com.zlargon.inject;
 import org.glassfish.hk2.api.ServiceLocator;
 import org.glassfish.hk2.utilities.ServiceLocatorUtilities;
 
-import com.zlargon.named.Greeter;
-
 public class AutomaticAppMain {
 
     public static void main(String[] args) {

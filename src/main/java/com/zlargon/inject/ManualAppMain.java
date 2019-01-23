@@ -6,8 +6,6 @@ import org.glassfish.hk2.api.ServiceLocator;
 import org.glassfish.hk2.api.ServiceLocatorFactory;
 import org.glassfish.hk2.utilities.BuilderHelper;
 
-import com.zlargon.named.Greeter;
-
 public class ManualAppMain {
 
     public static void main(String[] args) {

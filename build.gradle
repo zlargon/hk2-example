@@ -16,7 +16,66 @@ version = '0.0.1'
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
-task inject(type:JavaExec) {
-  main = 'com.zlargon.inject.AutomaticAppMain'
-  classpath = sourceSets.main.runtimeClasspath
+// Inject Tasks
+task inject(group:'inject', type:JavaExec) {
+    main = 'com.zlargon.inject.ManualAppMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task 'inject.auto'(group:'inject', type:JavaExec) {
+    main = 'com.zlargon.inject.AutomaticAppMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+// Instance Tasks
+task instance(group:'instance', type:JavaExec) {
+    main = 'com.zlargon.instance.ManualAppMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task 'instance.auto'(group:'instance', type:JavaExec) {
+    main = 'com.zlargon.instance.AutomaticAppMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task 'instance.pop'(group:'instance', type:JavaExec) {
+    main = 'com.zlargon.instance.PopulateAppMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+// Named Tasks
+task named(group:'named', type:JavaExec) {
+    main = 'com.zlargon.named.ManualAppMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task 'named.auto'(group:'named', type:JavaExec) {
+    main = 'com.zlargon.named.AutomaticAppMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+// Qualifier Tasks
+task qualifier(group:'qualifier', type:JavaExec) {
+    main = 'com.zlargon.qualifier.ManualAppMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task 'qualifier.auto'(group:'qualifier', type:JavaExec) {
+    main = 'com.zlargon.qualifier.AutomaticAppMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+// Test Task
+task test(overwrite: true) {
+    dependsOn = [
+        inject,
+        'inject.auto',
+        instance,
+        'instance.auto',
+        'instance.pop',
+        named,
+        'named.auto',
+        qualifier,
+        'qualifier.auto'
+    ]
 }
