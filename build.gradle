@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile group:'org.glassfish.hk2', name:'hk2', version:'2.5.0'
+}
+
+group = 'com.zlargon'
+version = '0.0.1'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+task inject(type:JavaExec) {
+  main = 'com.zlargon.inject.AutomaticAppMain'
+  classpath = sourceSets.main.runtimeClasspath
+}
