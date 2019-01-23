@@ -1,90 +1,90 @@
-[jp.coppermine.samples.hk2.instance.MessageImpl]S
-contract={jp.coppermine.samples.hk2.instance.Message}
+[com.zlargon.instance.MessageImpl]S
+contract={com.zlargon.instance.Message}
 
-[jp.coppermine.samples.hk2.inject.Greeter]S
+[com.zlargon.inject.Greeter]S
 
-[jp.coppermine.samples.hk2.inject.HelloImpl]S
-contract={jp.coppermine.samples.hk2.inject.Hello}
+[com.zlargon.inject.HelloImpl]S
+contract={com.zlargon.inject.Hello}
 
-[jp.coppermine.samples.hk2.named.Greeter]S
+[com.zlargon.named.Greeter]S
 
-[jp.coppermine.samples.hk2.named.HelloImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
+[com.zlargon.named.HelloImpl]S
+contract={com.zlargon.named.Hello}
 
-[jp.coppermine.samples.hk2.named.HelloJaImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
+[com.zlargon.named.HelloJaImpl]S
+contract={com.zlargon.named.Hello}
 name=Japanese
 
-[jp.coppermine.samples.hk2.named.HelloDeImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
+[com.zlargon.named.HelloDeImpl]S
+contract={com.zlargon.named.Hello}
 name=German
 
-[jp.coppermine.samples.hk2.named.HelloFrImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
+[com.zlargon.named.HelloFrImpl]S
+contract={com.zlargon.named.Hello}
 name=French
 
-[jp.coppermine.samples.hk2.named.HelloItImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
+[com.zlargon.named.HelloItImpl]S
+contract={com.zlargon.named.Hello}
 name=Italian
 
-[jp.coppermine.samples.hk2.named.HelloEsImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
+[com.zlargon.named.HelloEsImpl]S
+contract={com.zlargon.named.Hello}
 name=Spanish
 
-[jp.coppermine.samples.hk2.named.HelloBrPtImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
+[com.zlargon.named.HelloBrPtImpl]S
+contract={com.zlargon.named.Hello}
 name=Portuguese
 
-[jp.coppermine.samples.hk2.named.HelloZhChImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
+[com.zlargon.named.HelloZhChImpl]S
+contract={com.zlargon.named.Hello}
 name=Chinese
 
-[jp.coppermine.samples.hk2.named.HelloZhTwImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
+[com.zlargon.named.HelloZhTwImpl]S
+contract={com.zlargon.named.Hello}
 name=TraditionalChinese
 
-[jp.coppermine.samples.hk2.named.HelloKoImpl]S
-contract={jp.coppermine.samples.hk2.named.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.English}
+[com.zlargon.named.HelloKoImpl]S
+contract={com.zlargon.named.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.English}
 name=Korean
 
-[jp.coppermine.samples.hk2.qualifier.Greeter]S
+[com.zlargon.qualifier.Greeter]S
 
-[jp.coppermine.samples.hk2.qualifier.HelloImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
+[com.zlargon.qualifier.HelloImpl]S
+contract={com.zlargon.qualifier.Hello}
 
-[jp.coppermine.samples.hk2.qualifier.HelloJaImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.Japanese}
+[com.zlargon.qualifier.HelloJaImpl]S
+contract={com.zlargon.qualifier.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.Japanese}
 
-[jp.coppermine.samples.hk2.qualifier.HelloDeImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.German}
+[com.zlargon.qualifier.HelloDeImpl]S
+contract={com.zlargon.qualifier.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.German}
 
-[jp.coppermine.samples.hk2.qualifier.HelloFrImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.French}
+[com.zlargon.qualifier.HelloFrImpl]S
+contract={com.zlargon.qualifier.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.French}
 
-[jp.coppermine.samples.hk2.qualifier.HelloItImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.Italian}
+[com.zlargon.qualifier.HelloItImpl]S
+contract={com.zlargon.qualifier.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.Italian}
 
-[jp.coppermine.samples.hk2.qualifier.HelloEsImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.Spanish}
+[com.zlargon.qualifier.HelloEsImpl]S
+contract={com.zlargon.qualifier.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.Spanish}
 
-[jp.coppermine.samples.hk2.qualifier.HelloPtImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.Portuguese}
+[com.zlargon.qualifier.HelloPtImpl]S
+contract={com.zlargon.qualifier.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.Portuguese}
 
-[jp.coppermine.samples.hk2.qualifier.HelloZhChImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.Chinese}
+[com.zlargon.qualifier.HelloZhChImpl]S
+contract={com.zlargon.qualifier.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.Chinese}
 
-[jp.coppermine.samples.hk2.qualifier.HelloZhTwImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.Chinese}
+[com.zlargon.qualifier.HelloZhTwImpl]S
+contract={com.zlargon.qualifier.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.Chinese}
 
-[jp.coppermine.samples.hk2.qualifier.HelloKoImpl]S
-contract={jp.coppermine.samples.hk2.qualifier.Hello}
-qualifier={jp.coppermine.samples.hk2.qualifier.qualifiers.Korean}
+[com.zlargon.qualifier.HelloKoImpl]S
+contract={com.zlargon.qualifier.Hello}
+qualifier={com.zlargon.qualifier.qualifiers.Korean}
